@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "fastapi-basi"
+version = "0.1.0"
+description = ""
+authors = ["Safaraliyev05 <uzblordsardorboy0705@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.36"
+asyncpg = "^0.30.0"
+greenlet = "^3.1.1"
+faker = "^30.8.1"
+celery = "^5.4.0"
+redis = "^5.2.0"
+python-slugify = "^8.0.4"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
