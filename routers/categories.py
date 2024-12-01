@@ -1,5 +1,4 @@
-from fastapi import APIRouter, HTTPException, Query
-from sqlalchemy.future import select
+from fastapi import APIRouter, HTTPException
 from starlette import status
 
 from models.products import Category
